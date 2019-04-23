@@ -112,9 +112,10 @@ margin-right: 60px;
 	background: url(blackboard.jpg) no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
+
 }
-.alltextblackboard{
-	
+.alltextblackboard
+{
 	margin-top:-60px;
 }
 .about1 p{
@@ -245,3 +246,39 @@ input[type="text"]::-webkit-input-placeholder {
 .images{
 	margin-top: -210px;
 }
+
+#courses{
+	background-color: white;
+	height: 400px;
+	width: 100%;
+}
+
+.mayatnik{
+	width: 210px;
+	height: 320px;
+	opacity: 0.4;
+	padding-bottom: 230px;
+}
+.magnit{
+	width: 140px;
+	height: 120px;
+	margin:0 0 0 200px;
+	opacity: 0.4;
+	padding: 0;
+	margin-top: -110px;
+	margin-left: 210px;
+}
+.tittlesubjects {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.tittlesubjects p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1ab564;
+	font-size: 36px; }
+
+
+
