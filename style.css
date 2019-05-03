@@ -233,15 +233,16 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .teloedet{
-	width: 170px;
-	height: 170px;
-	padding-left: 150px;
+	width: 160px;
+	height: 160px;
+	padding-left: 40px;
 }
 
 .energy{
 	width: 150px;
 	height: 130px;
-	margin-left: 1040px;	
+	float: right;
+	margin-right: 20px;
 }
 .images{
 	margin-top: -210px;
@@ -249,36 +250,192 @@ input[type="text"]::-webkit-input-placeholder {
 
 #courses{
 	background-color: white;
-	height: 400px;
+	height: 360px;
 	width: 100%;
 }
 
-.mayatnik{
-	width: 210px;
-	height: 320px;
-	opacity: 0.4;
-	padding-bottom: 230px;
-}
 .magnit{
 	width: 140px;
 	height: 120px;
-	margin:0 0 0 200px;
 	opacity: 0.4;
 	padding: 0;
+	float: left;
 	margin-top: -110px;
-	margin-left: 210px;
+	margin-left: 180px;
 }
 .tittlesubjects {
 
     text-align: center;
-    margin: 0;
+    margin-top:56px;
     padding: 0;
+}
+.lin{
+	width: 450px;
+	height: 1px;
+	background-color:#1ab564;
+	margin: 0 auto; 
+	margin-top: 10px;
+	
 }
 .tittlesubjects p {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #1ab564;
-	font-size: 36px; }
+	font-size: 36px;
+	margin:0;
+	 }
+
+.mayatnik{
+	width: 160px;
+	height: 230px;
+	margin-left: -300px;
+    opacity: 0.4;
+}
+.tittlesub1{
+   
+float: left;
+display: block;
+margin-right: 50px;
+}
+
+.tittlesub2{
+   
+float: left;
+display: block;
+margin-right: 50px;
+}
+
+.tittlesub3{
+ float: left;
+display: block;
+margin-right: 50px;
+}
 
 
+.tittleob li{
+	color:black;
+	font-size: 36px;
+	text-decoration: none;
+	list-style-type: none;
+	line-height: 1.5;
+}
 
+.tittleob{
+	margin-left: 190px;
+	margin-top: -220px;
+}
+
+.sila{
+	width: 140px;
+	height: 70px;
+margin-left: 500px;
+opacity: 0.4;
+margin-top: 20px;
+}
+
+.cars{
+	width: 260px;
+	height: 100px;
+	float: right;
+	opacity: 0.4;
+}
+#footer{
+	background: url(blackboard.jpg) no-repeat center top / cover;
+	height: 1180px;
+}
+
+.tittleadvant p{
+	padding-top:50px;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0;
+}
+.tittleadvant span{
+	color: #1ab564;
+}
+.line{
+	width: 880px;
+	height: 1px;
+	background-color:#1ab564;
+	margin: 0 auto; 
+	margin-top: 10px;
+}
+
+.item{
+	margin-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+   width: 320px;
+   height: 430px;
+   float: left;
+   text-align: center;
+   background-color: white;
+   border-radius: 20px;
+
+}
+.item h3{
+	padding-top: 90px;
+	padding-bottom: 10px;
+	color:#305b90;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin:0;
+}
+.liniya{
+	width: 270px;
+	height: 1px;
+	background-color:#1ab564;
+	margin: 0 auto; 
+}
+.item p{
+color:#305b90;
+font-size: 24px;
+margin:0;
+padding-top: 10px;
+}
+.boxsmall{
+	float: right;
+	margin-right: 30px;
+	width: 80px;
+	height: 70px;
+	border-radius: 0 0 20px 20px;
+	background-color: #0571d6;
+
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+
+.item:last-child{
+	float: right;
+}
+.item:nth-child(2){
+	margin-left:114px;
+}
+.pi{
+width: 120px;
+height: 120px;
+float: right;
+margin-top: 400px;
+}
+.atom{
+	width: 170px;
+	height: 140px;
+	float: left;
+	margin-left: 20px;
+	margin-top:60px;
+}
+
+.video{
+	width: 900px;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: 140px;
+	margin-bottom: 0;
+}
