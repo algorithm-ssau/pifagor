@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 }
 div{
 	box-sizing: border-box;
@@ -54,7 +54,7 @@ nav{
 	margin: 0 auto;
 }
 .menu li{
-   
+
    float: left;
 display: block;
 margin-right: 60px;
@@ -62,11 +62,11 @@ margin-right: 60px;
 
 .menu a{
 	color:#305b90;
-	font-size: 30px;
+	font-size: 26px;
 	text-decoration: none;
 }
 .tittles{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 .textpifagor{
 	font-size: 40px;
@@ -109,7 +109,7 @@ margin-right: 60px;
 
 
 #blackboard{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
 
@@ -144,7 +144,7 @@ margin-right: 60px;
 	background-color: #1ab564;
 	margin-top: 25px;
 	margin-left: 40px;
-	
+
 }
 
 .formula1{
@@ -159,7 +159,7 @@ margin-right: 60px;
  	width: 400px;
 	height: 330px;
 	margin-top:10px;
-    float:right; 
+    float:right;
  }
 
 
@@ -188,7 +188,7 @@ input{
 
 input[type="text"]::-webkit-input-placeholder {
     color: #305b90;
-   } 
+   }
    input[type="text"]::-moz-placeholder {
     color: #305b90;
    }
@@ -273,9 +273,9 @@ input[type="text"]::-webkit-input-placeholder {
 	width: 450px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
-	
+
 }
 .tittlesubjects p {
 	font-weight: bold;
@@ -292,14 +292,14 @@ input[type="text"]::-webkit-input-placeholder {
     opacity: 0.4;
 }
 .tittlesub1{
-   
+
 float: left;
 display: block;
 margin-right: 50px;
 }
 
 .tittlesub2{
-   
+
 float: left;
 display: block;
 margin-right: 50px;
@@ -340,7 +340,7 @@ margin-top: 20px;
 	opacity: 0.4;
 }
 #footer{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 1180px;
 }
 
@@ -360,7 +360,7 @@ margin-top: 20px;
 	width: 880px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
 }
 
@@ -388,7 +388,7 @@ margin-top: 20px;
 	width: 270px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 .item p{
 color:#305b90;
