@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 }
 
 div{
@@ -59,7 +59,7 @@ nav{
 }
 
 .menu li{
-   
+
    float: left;
 display: block;
 margin-right: 60px;
@@ -72,7 +72,7 @@ margin-right: 60px;
 }
 
 .tittles{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .textpifagor{
@@ -138,6 +138,15 @@ margin-right: 60px;
 	margin: 0;
 }
 
+.contactsHeader {
+	font-size: 36px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
 .treatment1 span{
 	color:#1ab564;
 }
@@ -156,7 +165,7 @@ margin-right: 60px;
 	height: 1px;
 	background-color: #1ab564;
 	margin-top: 25px;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 
 .lineika{
@@ -171,7 +180,7 @@ margin-right: 60px;
  	width: 250px;
 	height: 190px;
 	margin-right: 200px;
-    padding-left: 100px;  
+    padding-left: 100px;
  }
 
  .zhelnov{
@@ -182,6 +191,14 @@ margin-right: 60px;
  	float: right;
  	margin-top: 30px;
  	margin-right: 100px;
+ }
+
+ .map{
+ 	width: 50%;
+ 	float: right;
+ 	margin-top: 50px;
+ 	margin-right: 50px;
+	margin-left: 50px;
  }
 
  .grafik{
@@ -207,7 +224,7 @@ margin-right: 60px;
 	width: 450px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
 }
 
@@ -229,7 +246,7 @@ margin-right: 60px;
 	float: left;
 	text-align: center;
 	background-color: white;
-	border: 1px solid #282923; 
+	border: 1px solid #282923;
 	box-shadow: 10px 10px 10px #AEAEAE;
 	border-radius: 20px;
 	margin-bottom: 100px;
@@ -245,7 +262,7 @@ margin-right: 60px;
 	float: left;
 	text-align: center;
 	background-color: white;
-	border: 1px solid #282923; 
+	border: 1px solid #282923;
 	box-shadow: 10px 10px 10px #AEAEAE;
 	border-radius: 20px;
 	margin-bottom: 100px;
@@ -278,7 +295,7 @@ margin-right: 60px;
 	width: 270px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 
 .item p{
@@ -298,3 +315,55 @@ text-indent: 25px;
 	margin-left:114px;
 }
 
+
+ .infobox{
+ 	width: 960px;
+ 	height: 220px;
+ 	background-color: white;
+ 	border-radius: 50px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top:80px;
+ 	margin-bottom: 0;
+ }
+
+ .nameinfobox{
+    margin-left:40px;
+   color:#305b90;
+ }
+.phoneinfobox{
+
+ 	margin-left:50px;
+   color: #305b90;
+}
+
+ .tittleinfo p{
+ 	font-size: 40px;
+ 	color:#305b90;
+ 	padding-top: 30px;
+ 	margin-left: 150px;
+ }
+
+ .tittleinfo span{
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ }
+ input{
+ 	font-size: 20px;
+  	color: white;
+  	text-align: center;
+  	width: 200px;
+  	height: 60px;
+  	border-radius: 30px;
+  	background: #ABABAB;
+  	border: none;
+  	margin-top: 0px;
+  	outline: none;
+ }
+
+ input[type="text"]::-webkit-input-placeholder {
+     color: #305b90;
+    }
+    input[type="text"]::-moz-placeholder {
+     color: #305b90;
+    }
