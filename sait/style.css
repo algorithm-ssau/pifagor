@@ -439,3 +439,50 @@ margin-top: 400px;
 	margin-left: 140px;
 	margin-bottom: 0;
 }
+#blackboardcatalog{
+	background: url(blackboard.jpg) no-repeat center top / cover;
+	height: 543px;
+	margin-top: 50px;
+
+}
+
+.bluebox{
+	width: 255px;
+	height: 42px;
+	border-radius: 21px;
+	background-color: #0571d6;
+}
+.bluetittlebox1{
+   
+float: left;
+display: block;
+margin-right: 50px;
+
+}
+
+.bluetittlebox2{
+   
+float: left;
+display: block;
+margin-right: 50px;
+
+}
+
+.bluetittlebox3{
+ float: left;
+display: block;
+margin-right: 50px;
+}
+.bluebox:last-child
+{
+	margin-top: 40px;
+}
+.bluebox:nth-child(2)
+{
+	margin-top: 40px;
+}
+
+.blue{
+	margin-left: 170px;
+padding-top: 100px;
+}
