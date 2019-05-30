@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 }
 
 div{
@@ -59,7 +59,7 @@ nav{
 }
 
 .menu li{
-   
+
    float: left;
 display: block;
 margin-right: 60px;
@@ -72,7 +72,7 @@ margin-right: 60px;
 }
 
 .tittles{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .textpifagor{
@@ -119,10 +119,22 @@ margin-right: 60px;
 
 #blackboard{
 	background: url(blackboard.jpg) no-repeat center top / cover;
-	height: 600px;
+	height: 500px;
 	margin-top: 50px;
-
 }
+
+/* .lineblackboard p {
+	color: white;
+} */
+
+/* .lineblackboard p:first-child {
+
+	font-size: 21px;
+} */
+
+/* .contactsHeader {
+	font-size: 32px;
+} */
 
 .alltextblackboard
 {
@@ -156,25 +168,25 @@ margin-right: 60px;
 	height: 1px;
 	background-color: #1ab564;
 	margin-top: 25px;
-	margin-left: 40px;	
+	margin-left: 40px;
 }
 
-.lineika{
+/* .lineika{
 	width: 240px;
 	height: 110px;
 	padding-top: 20px;
 	padding-left: 100px;
 	margin-right: 100px;
-    }
+    } */
 
- .formula{
+ .formula3{
  	width: 250px;
 	height: 190px;
 	margin-right: 200px;
-    padding-left: 100px;  
+    padding-left: 100px;
  }
 
- .zhelnov{
+ /* .zhelnov{
  	width: 270px;
 	height: 270px;
  	border: 7px solid #1AB162;
@@ -182,44 +194,44 @@ margin-right: 60px;
  	float: right;
  	margin-top: 30px;
  	margin-right: 100px;
- }
+ } */
 
- .grafik{
+ /* .grafik{
  	width: 300px;
  	float: right;
  	margin-right: 100px;
  	margin-top: -160px;
- }
+ } */
 
-#courses{
+/* #courses{
 	background-color: white;
 	height: 460px;
 	width: 100%;
-}
+} */
 
-.tittlesubjects {
+/* .tittlesubjects {
     text-align: center;
     margin-top:-70px;
     padding: 0;
-}
+} */
 
-.lin{
+/* .lin{
 	width: 450px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
-}
+} */
 
-.tittlesubjects p {
+/* .tittlesubjects p {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #1ab564;
 	font-size: 36px;
 	margin:0;
-}
+} */
 
-.item item1{
+/* .item item1{
 	margin-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -229,7 +241,7 @@ margin-right: 60px;
 	float: left;
 	text-align: center;
 	background-color: white;
-	border: 1px solid #AEAEAE; 
+	border: 1px solid #AEAEAE;
 	box-shadow: 10px 10px 10px #AEAEAE;
 	border-radius: 20px;
 	margin-bottom: 10px;
@@ -245,90 +257,90 @@ margin-right: 60px;
 	float: left;
 	text-align: center;
 	background-color: white;
-	border: 1px solid #AEAEAE; 
+	border: 1px solid #AEAEAE;
 	box-shadow: 10px 10px 10px #AEAEAE;
 	border-radius: 20px;
 	margin-bottom: 10px;
-}
+} */
 
-.arkhipova{
+/* .arkhipova{
 	height: 200px;
 	border: 7px solid #1AB162;
  	border-radius: 170px;
  	margin-top: 15px;
-}
+} */
 
-.bormotov {
+/* .bormotov {
 	height: 200px;
 	border: 7px solid #1AB162;
  	border-radius: 170px;
  	margin-top: 15px;
-}
+} */
 
-.item h3{
+/* .item h3{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color:#305b90;
 	font-size: 20px;
 	text-transform: uppercase;
 	margin:0;
-}
+} */
 
-.liniya{
+/* .liniya{
 	width: 270px;
 	height: 1px;
 	background-color:#1ab564;
 	margin: 0 auto;
-}
+} */
 
-.item p{
+/* .item p{
 color:#305b90;
 font-size: 18px;
 margin:0;
 text-align: justify;
 text-indent: 25px;
-}
+} */
 
 
-.item:last-child{
+/* .item:last-child{
 	float: right;
 }
 
 .item:nth-child(2){
 	margin-left:114px;
-}
+} */
 
- .molecula{
+ /* .molecula{
  	width: 100px;
  	opacity: 0.7;
- }
+ } */
 
- .drugayaformula{
+ /* .drugayaformula{
  	width: 250px;
  	margin-left: 800px;
  	opacity: 0.4;
  	margin-top: 5px;
- }
+ } */
 
- .grafik2{
+ /* .grafik2{
  	width: 250px;
  	margin-left: 20px;
  	opacity: 0.6;
  	margin-bottom: -60px;
- }
+ } */
 
- .magnit1{
+ /* .magnit1{
  	width: 100px;
  	margin-left: 400px;
  	opacity: 0.6;
- }
+ } */
 
- .vint{
+ /* .vint{
  	width: 150px;
  	margin-left: 220px;
  	opacity: 0.6;
- 	
- }
+
+ } */
 
 /*#slider {
 	position: relative;
@@ -386,4 +398,3 @@ label, a{
 .all input{
 	display: none;
 }
-
