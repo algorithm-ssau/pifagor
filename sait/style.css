@@ -504,3 +504,22 @@ padding-top: 100px;
 .textmap p:last-child {
 	font-size: 21px;
 }
+
+.alltextblackboard h1 {
+	color: #1ab564;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 25px;
+}
+
+.desc_price {
+	border: 2px solid white;
+	border-radius: 25px;
+	width: 50%;
+  margin-left: 25%;
+}
+
+.desc_price_inner {
+	width: 90%;
+	margin-left: 5%;
+}
