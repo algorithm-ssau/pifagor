@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 }
 div{
 	box-sizing: border-box;
@@ -54,7 +54,7 @@ nav{
 	margin: 0 auto;
 }
 .menu li{
-   
+
    float: left;
 display: block;
 margin-right: 60px;
@@ -66,7 +66,7 @@ margin-right: 60px;
 	text-decoration: none;
 }
 .tittles{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 .textpifagor{
 	font-size: 40px;
@@ -144,7 +144,7 @@ margin-right: 60px;
 	background-color: #1ab564;
 	margin-top: 25px;
 	margin-left: 40px;
-	
+
 }
 
 .formula1{
@@ -159,7 +159,7 @@ margin-right: 60px;
  	width: 400px;
 	height: 330px;
 	margin-top:10px;
-    float:right; 
+    float:right;
  }
 
 
@@ -188,7 +188,7 @@ input{
 
 input[type="text"]::-webkit-input-placeholder {
     color: #305b90;
-   } 
+   }
    input[type="text"]::-moz-placeholder {
     color: #305b90;
    }
@@ -273,9 +273,9 @@ input[type="text"]::-webkit-input-placeholder {
 	width: 450px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
-	
+
 }
 .tittlesubjects p {
 	font-weight: bold;
@@ -292,14 +292,14 @@ input[type="text"]::-webkit-input-placeholder {
     opacity: 0.4;
 }
 .tittlesub1{
-   
+
 float: left;
 display: block;
 margin-right: 50px;
 }
 
 .tittlesub2{
-   
+
 float: left;
 display: block;
 margin-right: 50px;
@@ -360,7 +360,7 @@ margin-top: 20px;
 	width: 880px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 10px;
 }
 
@@ -388,7 +388,7 @@ margin-top: 20px;
 	width: 270px;
 	height: 1px;
 	background-color:#1ab564;
-	margin: 0 auto; 
+	margin: 0 auto;
 }
 .item p{
 color:#305b90;
@@ -456,25 +456,25 @@ margin-top: 400px;
 	display: block;
 }
 .bluetittlebox1{
-   
+
 float: left;
 display: block;
-margin-right: 50px;
+margin-right: 20px;
 
 }
 
 .bluetittlebox2{
-   
+
 float: left;
 display: block;
-margin-right: 50px;
+margin-right: 20px;
 
 }
 
 .bluetittlebox3{
  float: left;
 display: block;
-margin-right: 50px;
+
 }
 .bluebox:last-child
 {
@@ -497,7 +497,7 @@ margin: 0 auto;
 	font-size: 20px;
 	text-decoration: none;
 	text-align: center;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 	margin: 0;
 }
 
@@ -539,6 +539,8 @@ margin: 0 auto;
 	background-color:#1ab564;
 	margin-top: 20px;
 	margin: 0 auto;
+<<<<<<< HEAD
+=======
 }
 
 .vars{
@@ -549,31 +551,36 @@ margin: 0 auto;
 
 }
 .varcol1{
-   
+
 float: left;
 display: block;
-margin-right: 30px;
+margin-right: 15px;
 
+>>>>>>> master
 }
 .varcol2{
-   
+
 float: left;
 display: block;
-margin-right: 30px;
+margin-right: 15px;
 
 }
 .varcol3{
-   
+
 float: left;
 display: block;
-margin-right: 30px;
+margin-right: 15px;
 
 }
 .varcol4{
-   
+
 float: left;
 display: block;
+<<<<<<< HEAD
 margin-right: 30px;
+=======
+margin-right: 15px;
+>>>>>>> master
 
 }
 
@@ -600,7 +607,7 @@ margin-right: 30px;
 	font-size: 18px;
 	text-decoration: none;
 	text-align: center;
-	font-family: Calibri, sans-serif; 
+	font-family: Calibri, sans-serif;
 }
 
 #foot{
