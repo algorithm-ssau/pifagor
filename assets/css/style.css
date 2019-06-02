@@ -62,7 +62,7 @@ margin-right: 60px;
 
 .menu a{
 	color:#305b90;
-	font-size: 26px;
+	font-size: 30px;
 	text-decoration: none;
 }
 .tittles{
@@ -109,7 +109,7 @@ margin-right: 60px;
 
 
 #blackboard{
-	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
+	background: url(blackboard.jpg) no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
 
@@ -340,7 +340,7 @@ margin-top: 20px;
 	opacity: 0.4;
 }
 #footer{
-	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
+	background: url(blackboard.jpg) no-repeat center top / cover;
 	height: 1180px;
 }
 
@@ -438,4 +438,276 @@ margin-top: 400px;
 	margin-top: 50px;
 	margin-left: 140px;
 	margin-bottom: 0;
+}
+#blackboardcatalog{
+	background: url(blackboard.jpg) no-repeat center top / cover;
+	height: 620px;
+	margin-top: 50px;
+}
+
+.bluebox{
+	width: 255px;
+	height: 42px;
+	border-radius: 21px;
+	background-color: #0571d6;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+}
+.bluetittlebox1{
+
+float: left;
+display: block;
+margin-right: 20px;
+
+}
+
+.bluetittlebox2{
+
+float: left;
+display: block;
+margin-right: 20px;
+
+}
+
+.bluetittlebox3{
+ float: left;
+display: block;
+
+}
+.bluebox:last-child
+{
+	margin-top: 40px;
+}
+.bluebox:nth-child(2)
+{
+	margin-top: 40px;
+}
+
+.blue{
+	height: 400px;
+	width: 915px;
+	padding-top: 100px;
+margin: 0 auto;
+}
+
+.blue a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Calibri, sans-serif;
+	margin: 0;
+}
+
+.telo{
+	width: 240px;
+	height:240px;
+	margin: 0;
+	float:left;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+.energ{
+	width: 180px;
+	height:180px;
+	margin: 0;
+	float:right;
+	margin-right: 100px;
+	margin-top: 250px;
+}
+.variantsclasses p
+{
+
+    font-weight: bold;
+	text-transform: uppercase;
+	/*color: #1ab564;*/
+	color: white;
+	font-size: 28px;
+	margin:0;
+}
+.variantsclasses{
+	width: 370px;
+	height: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+.linegreen{
+	width: 350px;
+	height: 1px;
+	background-color:#1ab564;
+	margin-top: 20px;
+	margin: 0 auto;
+<<<<<<< HEAD
+=======
+}
+
+.vars{
+	height: 300px;
+	width: 740px;
+	padding-top: 20px;
+   margin: 0 auto;
+
+}
+.varcol1{
+
+float: left;
+display: block;
+margin-right: 15px;
+
+>>>>>>> master
+}
+.varcol2{
+
+float: left;
+display: block;
+margin-right: 15px;
+
+}
+.varcol3{
+
+float: left;
+display: block;
+margin-right: 15px;
+
+}
+.varcol4{
+
+float: left;
+display: block;
+<<<<<<< HEAD
+margin-right: 30px;
+=======
+margin-right: 15px;
+>>>>>>> master
+
+}
+
+.var:last-child
+{
+	margin-top: 20px;
+}
+.var:nth-child(2)
+{
+	margin-top: 20px;
+}
+
+.var{
+	width: 155px;
+	height: 36px;
+	background-color: white;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+}
+.vars a{
+	color: #1ab564;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	font-family: Calibri, sans-serif;
+}
+
+#foot{
+	background-color: white;
+	height: 300px;
+}
+
+.catalogzad{
+	width: 240px;
+	height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.catalogzad p
+{
+    font-weight: bold;
+	text-transform: uppercase;
+	color: #1ab564;
+	font-size: 28px;
+	margin:0;
+}
+.linegr{
+	width: 246px;
+	height: 1px;
+	background-color:#1ab564;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+
+.topic p{
+	color: #305b90;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.subjects{
+	color: #305b90;
+	font-size: 24px;
+}
+.silas{
+	float: right;
+	width: 180px;
+	height: 100px;
+margin-right: 20px;
+opacity: 0.4;
+}
+.mayatniks{
+	float: right;
+	width: 170px;
+	height: 250px;
+	margin-left: 120px;
+	margin-right: 200px;
+    opacity: 0.4;
+}
+
+#blackboardcost{
+	background: url(blackboard.jpg) no-repeat center top / cover;
+	height: 743px;
+	margin-top: 50px;
+}
+.stoimost{
+	width: 300px;
+	height: 50px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.stoimost p
+{
+    font-weight: bold;
+	text-transform: uppercase;
+	color: #1ab564;
+	font-size: 28px;
+	margin:0;
+}
+.contboard{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+}
+.boardcost{
+	margin-top: 60px;
+	background-color:none;
+	border: 4px solid white;
+	border-radius: 25px;
+	/*margin:0 auto;*/
+	width: 700px;
+	height: 350px;
+	padding: 12px;
+}
+.boardcost p{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+
+}
+.boardcost span{
+	font-size: 30px;
+  color: #1ab564;
+  text-decoration: none;
 }
