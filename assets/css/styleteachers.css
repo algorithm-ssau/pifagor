@@ -118,7 +118,7 @@ margin-right: 60px;
 
 
 #blackboard{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 600px;
 	margin-top: 50px;
 
@@ -290,7 +290,7 @@ article img{ /*размер изображений слайдера*/
 #switch2:checked ~ #controls label:nth-child(1),
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3){
-	background: url('prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('/assets/images/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
 	margin: 0 0 0 -84px; /*сдвиг влево*/
 	display: block;
@@ -304,7 +304,7 @@ article img{ /*размер изображений слайдера*/
 #switch2:checked ~ #controls label:nth-child(3),
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(1){
-	background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	background: url('/assets/images/next.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
 	margin: 0 -84px 0 0; /*сдвиг вправо*/
 	display: block;

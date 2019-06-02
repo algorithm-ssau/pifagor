@@ -7,7 +7,6 @@ div{
 	box-sizing: border-box;
 }
 header{
-	/*background: url(lol.png) no-repeat center top / cover;*/
 	background-color: white;
 	height: 146px;
 	width: 100%;
@@ -44,7 +43,7 @@ nav{
 	float: right;
 }
 
-.menu{
+menu{
 	padding: 0;
 	margin: 0;
 	display: block;
@@ -53,14 +52,14 @@ nav{
 .nav{
 	margin: 0 auto;
 }
-.menu li{
+menu li{
 
    float: left;
 display: block;
 margin-right: 60px;
 }
 
-.menu a{
+menu a{
 	color:#305b90;
 	font-size: 30px;
 	text-decoration: none;
@@ -109,7 +108,7 @@ margin-right: 60px;
 
 
 #blackboard{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
 
@@ -340,7 +339,7 @@ margin-top: 20px;
 	opacity: 0.4;
 }
 #footer{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 1180px;
 }
 
@@ -440,7 +439,7 @@ margin-top: 400px;
 	margin-bottom: 0;
 }
 #blackboardcatalog{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 620px;
 	margin-top: 50px;
 }
@@ -666,7 +665,7 @@ opacity: 0.4;
 }
 
 #blackboardcost{
-	background: url(blackboard.jpg) no-repeat center top / cover;
+	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
 }

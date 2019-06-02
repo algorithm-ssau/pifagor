@@ -1,44 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sait</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <meta type="description" content="">
-    <meta type="keywords" content="">
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
-    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
-    <script src="/assets/js/script.js" type="text/javascript"></script>
-  </head>
+  <?php include "include/head.php"; ?>
   <body>
-    <header>
-    	<div class="container">
-    		<img src="/assets/images/logo.jpg" alt="Pifagor" class="logo">
-    		<div class="tittles">
-    		  <div class="textpifagor">Пифагор</div>
-    		  <div class="lineinclineheader"></div>
-    		  <div class="textcentrobr">Центр образования школьников</div>
-    		  <img src="/assets/images/logophone.png" alt="Pifagor" class="logophone">
-    		  <div class="textnumberphone">8 (846) 990 70 53</div>
-    		  <a href="#" class="button">Заказать звонок</a>
-    		</div>
-    		<div class="lineheader"></div>
-      </div>
-    </header>
-    <section>
-    	<div class="container">
-    		<nav>
-    			<ul class="menu">
-            <li><a href="/">Главная</a></li>
-    				<li><a href="#">О центре</a></li>
-    				<li><a href="#">Преподаватели</a></li>
-    				<li><a href="#">Каталог заданий</a></li>
-    				<li><a href="#">Стоимость</a></li>
-    				<li><a href="#">Контакты</a></li>
-    			</ul>
-    		</nav>
-    	</div>
-    </section>
+    <?php include "include/header.php"; ?>
+    <?php include "include/menu.php"; ?>
 
     <section id="blackboard">
     	<div class="container">
@@ -161,5 +126,6 @@
 	      <img src="/assets/video/yv.png" class="video">
         </div>
     </footer>
+
   </body>
 </html>
