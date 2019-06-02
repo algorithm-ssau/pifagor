@@ -1,29 +1,32 @@
-body{
+body {
 	padding: 0;
 	margin: 0;
 	font-family: Calibri, sans-serif;
 }
-div{
+
+div {
 	box-sizing: border-box;
 }
-header{
+
+header {
 	background-color: white;
 	height: 146px;
 	width: 100%;
 }
 
-.container{
+.container {
 	width: 1180px;
 	margin: 0 auto;
 }
 
-.logo{
-margin-top: 18px;
-width: 96px;
-height: 118px;
-float: left;
+.logo {
+	margin-top: 18px;
+	width: 96px;
+	height: 118px;
+	float: left;
 }
-.lineinclineheader{
+
+.lineinclineheader {
 	width: 40px;
 	height: 1px;
 	background-color: #305b90;
@@ -32,48 +35,52 @@ float: left;
 	margin-bottom: 6px;
 }
 
-.lineheader{
+.lineheader {
 	width: 1180px;
 	height: 1px;
 	background-color: #1ab564;
 	margin-top: 20px;
 }
 
-nav{
+nav {
 	float: right;
 }
 
-menu{
+menu {
 	padding: 0;
 	margin: 0;
 	display: block;
 	height: 50px;
 }
-.nav{
+
+.nav {
 	margin: 0 auto;
 }
-menu li{
 
-   float: left;
-display: block;
-margin-right: 60px;
+menu li {
+	float: left;
+	display: block;
+	margin-right: 60px;
 }
 
-menu a{
+menu a {
 	color:#305b90;
 	font-size: 30px;
 	text-decoration: none;
 }
-.tittles{
+
+.tittles {
 	padding-top: 50px;
 }
-.textpifagor{
+
+.textpifagor {
 	font-size: 40px;
 	color: #305b90;
 	font-weight: bold;
 	display: inline-block;
 }
-.textcentrobr{
+
+.textcentrobr {
 	font-size: 18px;
 	color: #1ab564;
 	font-weight: regular;
@@ -81,17 +88,18 @@ menu a{
 	margin-left: -10px;
 }
 
-.logophone{
+.logophone {
 	margin-left: 180px;
 }
-.textnumberphone{
-    margin-left: 10px;
-    font-size: 24px;
-    color: #305b90;
-    display: inline-block;
+
+.textnumberphone {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #305b90;
+  display: inline-block;
 }
 
-.button{
+.button {
 	background-color: white;
 	border: 1px solid #305b90;
 	float: right;
@@ -106,18 +114,25 @@ menu a{
 	box-sizing: border-box;
 }
 
-
 #blackboard{
 	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
-
 }
-.alltextblackboard
-{
+
+/* #blackboard {
+	height: 600px;
+} */
+
+.alltextblackboard {
 	margin-top:-60px;
 }
-.about1 p{
+
+/* .alltextblackboard {
+	margin-top:-0px;
+} */
+
+.about1 p {
 	font-size: 36px;
 	color: white;
 	font-weight: bold;
@@ -125,11 +140,12 @@ menu a{
 	padding-left: 40px;
 	margin: 0;
 }
-.about1 span{
+
+.about1 span {
 	color:#1ab564;
 }
 
-.about2 p{
+.about2 p {
 	color: white;
 	font-size: 24px;
 	font-weight: regular;
@@ -137,32 +153,35 @@ menu a{
 	margin:0;
 	padding-top:25px;
 }
-.lineblackboard{
+
+.lineblackboard {
 	width: 725px;
 	height: 1px;
 	background-color: #1ab564;
 	margin-top: 25px;
 	margin-left: 40px;
-
 }
 
-.formula1{
+/* .lineblackboard {
+	width: 500px;
+} */
+
+.formula1 {
 	width: 340px;
 	height: 140px;
 	padding-top: 20px;
 	padding-left: 440px;
-    margin: 0;
-    }
+  margin: 0;
+}
 
- .formula2{
+.formula2 {
  	width: 400px;
 	height: 330px;
 	margin-top:10px;
-    float:right;
- }
+	float:right;
+}
 
-
- .infobox{
+.infobox {
  	width: 960px;
  	height: 220px;
  	background-color: white;
@@ -172,7 +191,8 @@ menu a{
  	margin-top:80px;
  	margin-bottom: 0;
  }
-input{
+
+input {
 	font-size: 20px;
  	color: white;
  	text-align: center;
@@ -186,27 +206,25 @@ input{
 }
 
 input[type="text"]::-webkit-input-placeholder {
-    color: #305b90;
-   }
-   input[type="text"]::-moz-placeholder {
-    color: #305b90;
-   }
-
-
-
- .nameinfobox{
-    margin-left:40px;
-   color:#305b90;
- }
-.phoneinfobox{
-
- 	margin-left:50px;
-   color: #305b90;
+  color: #305b90;
 }
 
+input[type="text"]::-moz-placeholder {
+	color: #305b90;
+}
 
- .zapicinfobox{
-    width: 380px;
+.nameinfobox {
+  margin-left:40px;
+	color:#305b90;
+ }
+
+.phoneinfobox {
+ 	margin-left:50px;
+  color: #305b90;
+}
+
+.zapicinfobox {
+  width: 380px;
  	height: 70px;
  	background-color: #0571d6;
 	font-size: 20px;
@@ -214,46 +232,51 @@ input[type="text"]::-webkit-input-placeholder {
 	text-decoration: none;
 	text-align: center;
 	box-sizing: border-box;
-		margin-left: 40px;
-		border-radius: 35px;
-		color: white;
+	margin-left: 40px;
+	border-radius: 35px;
+	color: white;
 }
 
-.tittleinfo p{
+.tittleinfo p {
 	font-size: 40px;
 	color:#305b90;
 	padding-top: 30px;
 	margin-left: 150px;
 }
 
-.tittleinfo span{
+.tittleinfo span {
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
-.teloedet{
+.teloedet {
 	width: 160px;
 	height: 160px;
 	padding-left: 40px;
 }
 
-.energy{
+.energy {
 	width: 150px;
 	height: 130px;
 	float: right;
 	margin-right: 20px;
 }
-.images{
+
+.images {
 	margin-top: -210px;
 }
 
-#courses{
+#courses {
 	background-color: white;
 	height: 360px;
 	width: 100%;
 }
 
-.magnit{
+/* #courses {
+	height: 460px;
+} */
+
+.magnit {
 	width: 140px;
 	height: 120px;
 	opacity: 0.4;
@@ -262,56 +285,59 @@ input[type="text"]::-webkit-input-placeholder {
 	margin-top: -110px;
 	margin-left: 180px;
 }
-.tittlesubjects {
 
-    text-align: center;
-    margin-top:56px;
-    padding: 0;
+.tittlesubjects {
+  text-align: center;
+  margin-top:56px;
+  padding: 0;
 }
-.lin{
+
+/* .tittlesubjects {
+  margin-top:-70px;
+} */
+
+.lin {
 	width: 450px;
 	height: 1px;
 	background-color:#1ab564;
 	margin: 0 auto;
 	margin-top: 10px;
-
 }
+
 .tittlesubjects p {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #1ab564;
 	font-size: 36px;
 	margin:0;
-	 }
+}
 
-.mayatnik{
+.mayatnik {
 	width: 160px;
 	height: 230px;
 	margin-left: -300px;
-    opacity: 0.4;
-}
-.tittlesub1{
-
-float: left;
-display: block;
-margin-right: 50px;
+	opacity: 0.4;
 }
 
-.tittlesub2{
-
-float: left;
-display: block;
-margin-right: 50px;
+.tittlesub1 {
+	float: left;
+	display: block;
+	margin-right: 50px;
 }
 
-.tittlesub3{
+.tittlesub2 {
+	float: left;
+	display: block;
+	margin-right: 50px;
+}
+
+.tittlesub3 {
  float: left;
-display: block;
-margin-right: 50px;
+	display: block;
+	margin-right: 50px;
 }
 
-
-.tittleob li{
+.tittleob li {
 	color:black;
 	font-size: 36px;
 	text-decoration: none;
@@ -319,31 +345,32 @@ margin-right: 50px;
 	line-height: 1.5;
 }
 
-.tittleob{
+.tittleob {
 	margin-left: 190px;
 	margin-top: -220px;
 }
 
-.sila{
+.sila {
 	width: 140px;
 	height: 70px;
-margin-left: 500px;
-opacity: 0.4;
-margin-top: 20px;
+	margin-left: 500px;
+	opacity: 0.4;
+	margin-top: 20px;
 }
 
-.cars{
+.cars {
 	width: 260px;
 	height: 100px;
 	float: right;
 	opacity: 0.4;
 }
-#footer{
+
+#footer {
 	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 1180px;
 }
 
-.tittleadvant p{
+.tittleadvant p {
 	padding-top:50px;
 	font-size: 40px;
 	font-weight: bold;
@@ -352,10 +379,12 @@ margin-top: 20px;
 	text-transform: uppercase;
 	margin:0;
 }
-.tittleadvant span{
+
+.tittleadvant span {
 	color: #1ab564;
 }
-.line{
+
+.line {
 	width: 880px;
 	height: 1px;
 	background-color:#1ab564;
@@ -363,19 +392,19 @@ margin-top: 20px;
 	margin-top: 10px;
 }
 
-.item{
+.item {
 	margin-top: 30px;
 	padding-left: 5px;
 	padding-right: 5px;
-   width: 320px;
-   height: 430px;
-   float: left;
-   text-align: center;
-   background-color: white;
-   border-radius: 20px;
-
+  width: 320px;
+  height: 430px;
+  float: left;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
 }
-.item h3{
+
+.item h3 {
 	padding-top: 90px;
 	padding-bottom: 10px;
 	color:#305b90;
@@ -383,47 +412,52 @@ margin-top: 20px;
 	text-transform: uppercase;
 	margin:0;
 }
-.liniya{
+
+.liniya {
 	width: 270px;
 	height: 1px;
 	background-color:#1ab564;
 	margin: 0 auto;
 }
-.item p{
-color:#305b90;
-font-size: 24px;
-margin:0;
-padding-top: 10px;
+
+.item p {
+	color:#305b90;
+	font-size: 24px;
+	margin:0;
+	padding-top: 10px;
 }
-.boxsmall{
+
+.boxsmall {
 	float: right;
 	margin-right: 30px;
 	width: 80px;
 	height: 70px;
 	border-radius: 0 0 20px 20px;
 	background-color: #0571d6;
-
 }
 
-h2{
+h2 {
 	text-align: center;
 	color: white;
 	font-size: 24px;
 }
 
-.item:last-child{
+.item:last-child {
 	float: right;
 }
-.item:nth-child(2){
+
+.item:nth-child(2) {
 	margin-left:114px;
 }
-.pi{
-width: 120px;
-height: 120px;
-float: right;
-margin-top: 400px;
+
+.pi {
+	width: 120px;
+	height: 120px;
+	float: right;
+	margin-top: 400px;
 }
-.atom{
+
+.atom {
 	width: 170px;
 	height: 140px;
 	float: left;
@@ -431,20 +465,21 @@ margin-top: 400px;
 	margin-top:60px;
 }
 
-.video{
+.video {
 	width: 900px;
 	height: 500px;
 	margin-top: 50px;
 	margin-left: 140px;
 	margin-bottom: 0;
 }
-#blackboardcatalog{
+
+#blackboardcatalog {
 	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 620px;
 	margin-top: 50px;
 }
 
-.bluebox{
+.bluebox {
 	width: 255px;
 	height: 42px;
 	border-radius: 21px;
@@ -454,44 +489,40 @@ margin-top: 400px;
 	box-sizing: border-box;
 	display: block;
 }
-.bluetittlebox1{
 
-float: left;
-display: block;
-margin-right: 20px;
-
+.bluetittlebox1 {
+	float: left;
+	display: block;
+	margin-right: 20px;
 }
 
-.bluetittlebox2{
-
-float: left;
-display: block;
-margin-right: 20px;
-
+.bluetittlebox2 {
+	float: left;
+	display: block;
+	margin-right: 20px;
 }
 
-.bluetittlebox3{
- float: left;
-display: block;
+.bluetittlebox3 {
+	float: left;
+	display: block;
+}
 
-}
-.bluebox:last-child
-{
-	margin-top: 40px;
-}
-.bluebox:nth-child(2)
-{
+.bluebox:last-child {
 	margin-top: 40px;
 }
 
-.blue{
+.bluebox:nth-child(2) {
+	margin-top: 40px;
+}
+
+.blue {
 	height: 400px;
 	width: 915px;
 	padding-top: 100px;
-margin: 0 auto;
+	margin: 0 auto;
 }
 
-.blue a{
+.blue a {
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
@@ -500,7 +531,7 @@ margin: 0 auto;
 	margin: 0;
 }
 
-.telo{
+.telo {
 	width: 240px;
 	height:240px;
 	margin: 0;
@@ -508,7 +539,8 @@ margin: 0 auto;
 	margin-left: 50px;
 	margin-top: 80px;
 }
-.energ{
+
+.energ {
 	width: 180px;
 	height:180px;
 	margin: 0;
@@ -516,83 +548,75 @@ margin: 0 auto;
 	margin-right: 100px;
 	margin-top: 250px;
 }
-.variantsclasses p
-{
 
-    font-weight: bold;
+.variantsclasses p {
+  font-weight: bold;
 	text-transform: uppercase;
 	/*color: #1ab564;*/
 	color: white;
 	font-size: 28px;
 	margin:0;
 }
-.variantsclasses{
+
+.variantsclasses {
 	width: 370px;
 	height: 50px;
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
-.linegreen{
+
+.linegreen {
 	width: 350px;
 	height: 1px;
 	background-color:#1ab564;
 	margin-top: 20px;
 	margin: 0 auto;
-<<<<<<< HEAD
-=======
 }
 
-.vars{
+.vars {
 	height: 300px;
 	width: 740px;
 	padding-top: 20px;
-   margin: 0 auto;
-
-}
-.varcol1{
-
-float: left;
-display: block;
-margin-right: 15px;
-
->>>>>>> master
-}
-.varcol2{
-
-float: left;
-display: block;
-margin-right: 15px;
-
-}
-.varcol3{
-
-float: left;
-display: block;
-margin-right: 15px;
-
-}
-.varcol4{
-
-float: left;
-display: block;
-<<<<<<< HEAD
-margin-right: 30px;
-=======
-margin-right: 15px;
->>>>>>> master
-
+  margin: 0 auto;
 }
 
-.var:last-child
-{
-	margin-top: 20px;
+.varcol1 {
+	float: left;
+	display: block;
+	margin-right: 15px;
 }
-.var:nth-child(2)
-{
+
+.varcol2 {
+	float: left;
+	display: block;
+	margin-right: 15px;
+}
+
+.varcol3 {
+	float: left;
+	display: block;
+	margin-right: 15px;
+}
+
+.varcol4 {
+	float: left;
+	display: block;
+	margin-right: 15px;
+}
+
+/* .varcol4 {
+	margin-right: 30px;
+} */
+
+.var:last-child {
 	margin-top: 20px;
 }
 
-.var{
+.var:nth-child(2) {
+	margin-top: 20px;
+}
+
+.var {
 	width: 155px;
 	height: 36px;
 	background-color: white;
@@ -601,7 +625,8 @@ margin-right: 15px;
 	box-sizing: border-box;
 	display: block;
 }
-.vars a{
+
+.vars a {
 	color: #1ab564;
 	font-size: 18px;
 	text-decoration: none;
@@ -609,27 +634,27 @@ margin-right: 15px;
 	font-family: Calibri, sans-serif;
 }
 
-#foot{
+#foot {
 	background-color: white;
 	height: 300px;
 }
 
-.catalogzad{
+.catalogzad {
 	width: 240px;
 	height: 50px;
-    margin: 0 auto;
-    margin-top: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
-.catalogzad p
-{
-    font-weight: bold;
+.catalogzad p {
+  font-weight: bold;
 	text-transform: uppercase;
 	color: #1ab564;
 	font-size: 28px;
 	margin:0;
 }
-.linegr{
+
+.linegr {
 	width: 246px;
 	height: 1px;
 	background-color:#1ab564;
@@ -637,59 +662,64 @@ margin-right: 15px;
 	margin: 0 auto;
 }
 
-.topic p{
+.topic p {
 	color: #305b90;
 	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	padding: 0;
 }
-.subjects{
+
+.subjects {
 	color: #305b90;
 	font-size: 24px;
 }
-.silas{
+
+.silas {
 	float: right;
 	width: 180px;
 	height: 100px;
-margin-right: 20px;
-opacity: 0.4;
+	margin-right: 20px;
+	opacity: 0.4;
 }
-.mayatniks{
+
+.mayatniks {
 	float: right;
 	width: 170px;
 	height: 250px;
 	margin-left: 120px;
 	margin-right: 200px;
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
-#blackboardcost{
+#blackboardcost {
 	background: url('/assets/images/blackboard.jpg') no-repeat center top / cover;
 	height: 743px;
 	margin-top: 50px;
 }
-.stoimost{
+
+.stoimost {
 	width: 300px;
 	height: 50px;
-    margin: 0 auto;
-    padding-top: 40px;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
-.stoimost p
-{
-    font-weight: bold;
+.stoimost p {
+  font-weight: bold;
 	text-transform: uppercase;
 	color: #1ab564;
 	font-size: 28px;
 	margin:0;
 }
-.contboard{
+
+.contboard {
 	width: 700px;
 	height: 300px;
 	margin: 0 auto;
 }
-.boardcost{
+
+.boardcost {
 	margin-top: 60px;
 	background-color:none;
 	border: 4px solid white;
@@ -699,14 +729,246 @@ opacity: 0.4;
 	height: 350px;
 	padding: 12px;
 }
-.boardcost p{
+
+.boardcost p {
   font-size: 30px;
   color: white;
   text-decoration: none;
-
 }
-.boardcost span{
+
+.boardcost span {
 	font-size: 30px;
   color: #1ab564;
   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ???????????????????????????? */
+/* ???????????????????????????? */
+/* ???????????????????????????? */
+
+.treatment1 p {
+	font-size: 36px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 40px;
+	margin: 0;
+}
+
+.treatment1 span {
+	color:#1ab564;
+}
+
+.treatment2 p {
+	color: white;
+	font-size: 18px;
+	font-weight: regular;
+	padding-left: 40px;
+	margin:0;
+	padding-top:25px;
+	line-height: 25px;
+}
+
+.lineika {
+	width: 240px;
+	height: 110px;
+	padding-top: 20px;
+	padding-left: 100px;
+	margin-right: 100px;
+}
+
+.formula {
+ 	width: 250px;
+	height: 190px;
+	margin-right: 200px;
+  padding-left: 100px;
+}
+
+.zhelnov {
+ 	width: 270px;
+	height: 270px;
+ 	border: 7px solid #1AB162;
+ 	border-radius: 150px;
+ 	float: right;
+ 	margin-top: 30px;
+ 	margin-right: 100px;
+}
+
+.grafik {
+ 	width: 300px;
+ 	float: right;
+ 	margin-right: 100px;
+ 	margin-top: -160px;
+}
+
+.molecula {
+ 	width: 100px;
+ 	opacity: 0.7;
+}
+
+.drugayaformula {
+ 	width: 250px;
+ 	margin-left: 800px;
+ 	opacity: 0.4;
+ 	margin-top: 5px;
+}
+
+.grafik2 {
+ 	width: 250px;
+ 	margin-left: 20px;
+ 	opacity: 0.6;
+ 	margin-bottom: -60px;
+}
+
+.magnit1 {
+ 	width: 100px;
+ 	margin-left: 400px;
+ 	opacity: 0.6;
+}
+
+.vint {
+ 	width: 150px;
+ 	margin-left: 220px;
+ 	opacity: 0.6;
+}
+
+#slider { /*положение слайдера*/
+	position: relative;
+	text-align: center;
+  top: 10px;
+}
+
+#slider { /*центровка слайдера*/
+	margin: 0 auto;
+}
+
+#slides article { /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+}
+
+#slides .image { /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow { /*сркывает все, что находится за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
+
+article img { /*размер изображений слайдера*/
+	width: 100%;
+}
+
+#desktop:checked ~ #slider { /*размер всего слайдера*/
+	max-width: 500px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(4),
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3) {
+	background: url('/assets/images/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: left;
+	margin: 0 0 0 -84px; /*сдвиг влево*/
+	display: block;
+	height: 68px;
+	width: 68px;
+	margin-top: -300px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2),
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(1){
+	background: url('/assets/images/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: right;
+	margin: 0 -84px 0 0; /*сдвиг вправо*/
+	display: block;
+	height: 68px;
+	width: 68px;
+	margin-top: -300px;
+}
+
+label, a { /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+
+.all input { /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image {
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image {
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image {
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image {
+	margin-left: -300%;
+}
+
+#controls { /*положение блока всех управляющих элементов*/
+	margin: -25% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#active label { /*стиль отдельного переключателя*/
+	border-radius: 10px; /*скругление углов*/
+	display: inline-block; /*расположение в строку*/
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active { /*расположение блока с переключателями*/
+	margin: 23% 0 0;
+	text-align: center;
+}
+
+#active label:hover { /*поведение чекбокса при наведении*/
+	background: #76c8ff;
+	border-color: #777 !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4) {
+	background: #1AB564;
+	border-color: #1AB564 !important;
+}
+
+#slides .image { /*анимация пролистывания изображений*/
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover { /*прозрачность стрелок при наведении*/
+	opacity: 0.6;
+}
+
+#controls label { /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
 }
