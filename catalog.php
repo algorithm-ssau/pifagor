@@ -1,3 +1,22 @@
+<?php
+
+  require_once '.settings.php';
+  require_once 'include/db.php';
+
+  $database = new DataBase();
+  $database->connect();
+
+  $subjects = $database->getSubjects();
+  $sections = $database->getSections();
+
+  // $database->debug($sections);
+
+  if (isset($_GET['id'])) {
+    $id_subject = $_GET['id'];
+  }
+
+?>
+
 <!DOCTYPE html>
 <html>
   <?php include "include/head.php"; ?>
@@ -11,24 +30,24 @@
     	<div class="container">
         <div class="blue">
           <div class="bluetittlebox1">
-          	<a href="#" class="bluebox">Физика</a>
-          	<a href="#" class="bluebox">Математика</a>
-          	<a href="#" class="bluebox">Обществознание</a>
+          	<a href="/catalog.php?id=1" class="bluebox"><?php echo $subjects[1]; ?></a>
+          	<a href="/catalog.php?id=2" class="bluebox"><?php echo $subjects[2]; ?></a>
+          	<a href="/catalog.php?id=3" class="bluebox"><?php echo $subjects[3]; ?></a>
           </div>
 
           <div class="bluetittlebox2">
-            <a href="#" class="bluebox">История</a>
-          	<a href="#" class="bluebox">Биология</a>
-          	<a href="#" class="bluebox">Химия</a>
+            <a href="/catalog.php?id=4" class="bluebox"><?php echo $subjects[4]; ?></a>
+          	<a href="/catalog.php?id=5" class="bluebox"><?php echo $subjects[5]; ?></a>
+          	<a href="/catalog.php?id=6" class="bluebox"><?php echo $subjects[6]; ?></a>
           </div>
 
           <div class="bluetittlebox3">
-            <a href="#" class="bluebox">Английский язык</a>
-          	<a href="#" class="bluebox">Русский язык</a>
-          	<a href="#" class="bluebox">Литература</a>
+            <a href="/catalog.php?id=7" class="bluebox"><?php echo $subjects[7]; ?></a>
+          	<a href="/catalog.php?id=8" class="bluebox"><?php echo $subjects[8]; ?></a>
+          	<a href="/catalog.php?id=9" class="bluebox"><?php echo $subjects[9]; ?></a>
           </div>
         </div>
-        <div class="variantsclasses"><p>Тренировочные варианты</p></div>
+        <!-- <div class="variantsclasses"><p>Тренировочные варианты</p></div>
         <div class="linegreen"></div>
         <div class="vars">
           <div class="varcol1">
@@ -50,7 +69,7 @@
             <a href="#" class="var">Вариант 4</a>
           	<a href="#" class="var">Вариант 8</a>
           </div>
-        </div>
+        </div> -->
     	</div>
     </section>
 
@@ -61,13 +80,17 @@
         <div class="topic">
           <p>Тема</p>
         </div>
-        <a href="#" class="subjects">Механика</a></br>
+
+        <?php if (isset($id_subject)) {
+          foreach ($sections as $key => $section) {
+            if ($section['id_subjects'] == $id_subject) { ?>
+              <a href="/section.php?id=<?php echo $id_subject; ?>&id_section=<?php echo $section['id']; ?>" class="subjects"><?php echo $section['name']; ?></a></br>
+            <?php }
+          }
+        } ?>
+
         <img src="/assets/images/mayatnik.png" class="mayatniks">
         <img src="/assets/images/sila.png" class="silas">
-        <a href="#" class="subjects">Термодинамика и МКТ</a></br>
-        <a href="#" class="subjects">Электродинамика</a></br>
-        <a href="#" class="subjects">Оптика</a></br>
-        <a href="#" class="subjects">Атомная и ядерная физика</a>
       </div>
     </footer>
 

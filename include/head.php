@@ -1,3 +1,5 @@
+<?php require_once '.settings.php'; ?>
+
 <head>
   <title>Пифагор</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

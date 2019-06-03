@@ -28,9 +28,12 @@
     	      <div class="tittleinfo">
               <p>Запишись на <span>бесплатное</span> тестирование</p>
             </div>
-    		    <input type="text" class="nameinfobox" placeholder="Введи имя">
-    	      <input type="text" class="phoneinfobox" placeholder="Введи телефон">
-            <a href="#" class="zapicinfobox">Записаться на бесплатное тестирование</a>
+            <form action="/cgi-bin/form.py">
+    		      <input type="text" class="nameinfobox" placeholder="Введи имя" name="name">
+    	        <input type="text" class="phoneinfobox" placeholder="Введи телефон" name="phone">
+              <input type="submit" class="zapicinfobox" placeholder="Записаться на бесплатное тестирование" name="submit">
+              <!-- <a href="#" class="zapicinfobox">Записаться на бесплатное тестирование</a> -->
+            </form>
     		  </div>
         </div>
       </div>
