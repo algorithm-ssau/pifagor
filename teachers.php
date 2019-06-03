@@ -5,7 +5,7 @@
     <?php include "include/header.php"; ?>
     <?php include "include/menu.php"; ?>
 
-    <section id="blackboard">
+    <section id="blackboardkatya">
   		<div class="container">
   			<div class="alltextblackboard">
   				<img src="/assets/images/lineika.png" class="lineika">
