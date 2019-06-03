@@ -9,7 +9,7 @@
   $subjects = $database->getSubjects();
   $sections = $database->getSections();
 
-  // $database->debug($sections);
+  // $database->debug($subjects);
 
   if (isset($_GET['id'])) {
     $id_subject = $_GET['id'];
@@ -29,23 +29,45 @@
       <img src="/assets/images/energy.png" class="energ">
     	<div class="container">
         <div class="blue">
+
+          <?php if (isset($id_subject)) { ?>
+
+          <div class="bluetittlebox1">
+          	<a href="/catalog.php?id=1" <?php if ($id_subject == 1) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[1]; ?></a>
+          	<a href="/catalog.php?id=2" <?php if ($id_subject == 2) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[2]; ?></a>
+          	<a href="/catalog.php?id=3" <?php if ($id_subject == 3) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[3]; ?></a>
+          </div>
+
+          <div class="bluetittlebox2">
+            <a href="/catalog.php?id=4" <?php if ($id_subject == 4) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[4]; ?></a>
+          	<a href="/catalog.php?id=5" <?php if ($id_subject == 5) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[5]; ?></a>
+          	<a href="/catalog.php?id=6" <?php if ($id_subject == 6) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[6]; ?></a>
+          </div>
+
+          <div class="bluetittlebox3">
+            <a href="/catalog.php?id=7" <?php if ($id_subject == 7) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[7]; ?></a>
+          	<a href="/catalog.php?id=8" <?php if ($id_subject == 8) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[8]; ?></a>
+          	<a href="/catalog.php?id=9" <?php if ($id_subject == 9) { ?> style="background-color: white !important; color: #0571d6 !important;"<?php } ?> class="bluebox"><?php echo $subjects[9]; ?></a>
+          </div>
+
+        <?php } else { ?>
           <div class="bluetittlebox1">
           	<a href="/catalog.php?id=1" class="bluebox"><?php echo $subjects[1]; ?></a>
           	<a href="/catalog.php?id=2" class="bluebox"><?php echo $subjects[2]; ?></a>
           	<a href="/catalog.php?id=3" class="bluebox"><?php echo $subjects[3]; ?></a>
           </div>
-
           <div class="bluetittlebox2">
             <a href="/catalog.php?id=4" class="bluebox"><?php echo $subjects[4]; ?></a>
           	<a href="/catalog.php?id=5" class="bluebox"><?php echo $subjects[5]; ?></a>
           	<a href="/catalog.php?id=6" class="bluebox"><?php echo $subjects[6]; ?></a>
           </div>
-
           <div class="bluetittlebox3">
             <a href="/catalog.php?id=7" class="bluebox"><?php echo $subjects[7]; ?></a>
           	<a href="/catalog.php?id=8" class="bluebox"><?php echo $subjects[8]; ?></a>
           	<a href="/catalog.php?id=9" class="bluebox"><?php echo $subjects[9]; ?></a>
           </div>
+        <?php } ?>
+
         </div>
         <!-- <div class="variantsclasses"><p>Тренировочные варианты</p></div>
         <div class="linegreen"></div>
