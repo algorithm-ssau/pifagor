@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
       $phone = $_POST['phone'];
   }
 
-  $message = exec("./pifagor.local/cgi-bin/send_form.py");
+  $message = exec("./pifagor.local/cgi-bin/send_form.py -name " . $name . " -phone " . $phone);
   echo $message;
 
 }
